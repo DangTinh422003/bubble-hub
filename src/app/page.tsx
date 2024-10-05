@@ -72,7 +72,11 @@ export default function Home() {
     <div>
       <Header />
       <div className="container">
-        <div className={`mx-auto w-full lg:w-3/4`}>
+        <div className={`
+          mx-auto w-full
+
+          lg:w-3/4
+        `}>
           <h1 className="my-8 text-2xl">Environments</h1>
           <div className="flex h-10 w-1/3 items-center gap-2">
             <Input placeholder="Search" className="h-full flex-1 px-4" />
@@ -105,7 +109,10 @@ export default function Home() {
                   >
                     <span>{hub.name}</span>
                     <span
-                      className={`rounded-md bg-[#f8f7fa] px-2 py-1 capitalize text-[#4b4851]`}
+                      className={`
+                        rounded-md bg-[#f8f7fa] px-2 py-1 capitalize
+                        text-[#4b4851]
+                      `}
                     >
                       {hub.scope}
                     </span>
@@ -133,7 +140,9 @@ export default function Home() {
                         {hub.systems.map((system) => (
                           <p
                             key={system}
-                            className={`h-auto rounded-md border px-2 py-1 text-xs`}
+                            className={`
+                              h-auto rounded-md border px-2 py-1 text-xs
+                            `}
                           >
                             {system}
                           </p>
@@ -143,7 +152,12 @@ export default function Home() {
                     <Popover>
                       <div className="flex items-center justify-end">
                         <div
-                          className={`flex size-10 cursor-pointer items-center justify-center rounded-full hover:bg-gray-100`}
+                          className={`
+                            flex size-10 cursor-pointer items-center
+                            justify-center rounded-full
+
+                            hover:bg-gray-100
+                          `}
                         >
                           <Trash size={16} className="text-red-500" />
                         </div>
@@ -162,12 +176,18 @@ export default function Home() {
                           className="w-96"
                         >
                           <div className="flex h-10 gap-1">
-                            <p className="font-geist-mono flex h-full flex-1 items-center rounded-sm border p-2 text-sm text-gray-700">
+                            <p className={`
+                              flex h-full flex-1 items-center rounded-sm border
+                              p-2 font-geist-mono text-sm text-gray-700
+                            `}>
                               flox pull DangTinh422003/test
                             </p>
                             <Button
                               variant={'ghost'}
-                              className="aspect-square flex items-center justify-center border"
+                              className={`
+                                aspect-square flex items-center justify-center
+                                border
+                              `}
                             >
                               <Copy size={14} />
                             </Button>
