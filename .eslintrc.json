@@ -28,6 +28,7 @@
         "readable-tailwind"
       ],
       "rules": {
+        "tailwindcss/no-custom-classname": 0,
         "simple-import-sort/imports": "error",
         "simple-import-sort/exports": "error",
         "tailwindcss/classnames-order": 0,

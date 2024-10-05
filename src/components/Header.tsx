@@ -40,7 +40,7 @@ const Header = () => {
       <div className="container flex h-14 items-center justify-between py-2">
         <div className="flex items-center gap-x-10">
           <p className="text-3xl font-semibold">
-            Bubble <span className="text-primary">Hub</span>
+            Bubble<span className="text-primary">Hub</span>
           </p>
           <nav className={`
             hidden items-center gap-x-8
@@ -95,7 +95,9 @@ const Header = () => {
               hidden
 
               md:block
-            `}>My Account</DropdownMenuLabel>
+            `}>
+              My Account
+            </DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem>Profile</DropdownMenuItem>
             <DropdownMenuSeparator />
