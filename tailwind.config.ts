@@ -13,6 +13,10 @@ const config: Config = {
       padding: '1rem',
     },
     extend: {
+      fontFamily: {
+        'geist-sans': 'var(--font-geist-sans)',
+        'geist-mono': 'var(--font-geist-mono)',
+      },
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
