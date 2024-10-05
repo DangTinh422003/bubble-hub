@@ -8,7 +8,7 @@ export default function Home() {
         justify-items-center gap-16 p-8 pb-20
 
         font-[family-name:var(--font-geist-sans)]
-        
+
         sm:p-20
       `}
     >
